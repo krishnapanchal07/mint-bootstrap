@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+
+
+
+
+/* Header Styling */
+
+.main-header {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-nav .navbar-brand {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.header-nav .form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;  
+  gap: 32px;
+}
+
+.trade-btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.help-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+}
+
+.user-icon {
+  width: 28px;
+  height: 28px;
+}
+.header-page-width{   
+    max-width: 1262px;
+    margin-inline: auto;
+    padding-inline: 3rem;
+}
+
+.Header_icons {
+    gap: 15px;
+}
+
+.Header_categories ul {
+    gap: 32px;
+}
+
+.Header_categories ul li {
+    font-family: Bricolage Grotesque;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.Header_categories  {
+    padding-block: 14.5px;
+}
+
+
+/* Hero section*/
+
+.page-width{   
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 3rem;
+}
+
+.Hero_wrapper{
+       background: url(/Ellipse.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.Hero_container{
+    background-color: #EEEEEE;
+}
+.Hero_Description{
+    position: relative;
+    overflow: hidden;
+}
+.Hero_Description h1 {
+font-family: Bricolage Grotesque;
+font-weight: 700;
+font-style: Bold;
+font-size: 80px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.Hero_Description h2 {
+font-family: Bricolage Grotesque;
+font-weight: 400;
+font-style: Regular;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.Hero_Description button {
+font-family: Bricolage Grotesque;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.Hero_Description .banner-bg-1 {
+    position: absolute;
+    width: 50%;
+}.Hero_Description .banner-bg-2 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.Hero_image img {
+    width: 100%;
+    max-width: 500px;
+}
+

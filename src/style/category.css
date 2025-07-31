@@ -1,0 +1,90 @@
+.Product-slider {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 3rem;
+  background-color: #fafafa;
+}
+
+.Product-slider h2 {
+  font-family: Bricolage Grotesque;
+  font-weight: 700; 
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Product-slider p {
+  font-family: Bricolage Grotesque;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.product-details {
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  border-radius: 24px;
+}
+
+.product-details:hover {
+  transform: translateY(-5px);
+}
+
+.Product-slider li p {
+  color: black;
+  font-family: Bricolage Grotesque;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.product_img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: 0;
+}
+
+.slick-slide {
+  padding: 0 12px;
+}
+.slick-slide > div{
+    background: #EEEEEE;
+    border-radius: 24px;
+}
+.slick-list {
+  margin: 0 -12px;
+}
+
+
+.slick-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black !important;
+  color: white !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.slick-prev {
+  left: -45px !important;
+}
+
+.slick-next {
+  right: -45px !important;
+}
+
