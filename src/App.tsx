@@ -6,6 +6,8 @@ import HeroSection from "./components/HeroSection";
 import CategorySlider from "./components/CategorySlider";
 import Recommend from "./components/Recommend";
 import BlackBanner from "./components/BlackBanner";
+import TopBrands from "./components/TopBrands";
+import PhotoBanner from "./components/Photobanner";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <CategorySlider />
       <Recommend />
       <BlackBanner/>
+      <TopBrands/>
+      <PhotoBanner/>
       {/* <ChoiceSlider /> */}
     </>
   );
