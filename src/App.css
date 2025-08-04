@@ -4,6 +4,9 @@
   padding-inline: 3rem;
 }
 
+
+/* twophodosection */
+
 .photosection .photos {
   object-fit: cover;
   width: 100%;
@@ -16,15 +19,81 @@
   font-style: Bold;
   font-size: 64px;
   line-height: 100%;
-  left: 30px;
-  color: #00fb00;
+  left: 40px;
   letter-spacing: 0%;
-  bottom: 30px;
+  bottom: 20px;
+  z-index: 50;
+  margin: 0;
 }
 
-.lilu-banner-photu .img-group{
-  position: relative;
+/* trade section */
+
+.trade-title{
+font-family: Bricolage Grotesque;
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+
 }
-.lilu-banner-photu .img-group:first-of-type{
-  bottom: 0;
+
+.trade-section .typegraphy{
+ font-family: Bricolage Grotesque;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.trade-icon {
+  background-color: #00FB00; 
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.trade-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* accordion */
+
+.accordion {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.accordion h2 {
+  font-family: Bricolage Grotesque;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+ .accordion-header .accordion-button{
+  padding: 20px;
+}
+
+.accordion-header .accordion-button{
+font-family: Bricolage Grotesque;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
 }

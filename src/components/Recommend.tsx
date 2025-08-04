@@ -5,13 +5,40 @@ import { IoStar, IoStarOutline } from "react-icons/io5";
 
 function Recommend() {
   const { products, loading, error } = useFetchProducts();
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-  };
+const settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200, // large desktops
+      settings: {
+        slidesToShow: 4,
+      },
+    },
+    {
+      breakpoint: 992, // tablets
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768, // small tablets
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 576, // phones
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
 
   console.log("recommend", products);
   return (

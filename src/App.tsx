@@ -8,6 +8,8 @@ import Recommend from "./components/Recommend";
 import BlackBanner from "./components/BlackBanner";
 import TopBrands from "./components/TopBrands";
 import PhotoBanner from "./components/Photobanner";
+import Accrodion from "./components/Accordion";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <BlackBanner/>
       <TopBrands/>
       <PhotoBanner/>
+      <Accrodion/>
+      <Footer />
       {/* <ChoiceSlider /> */}
     </>
   );

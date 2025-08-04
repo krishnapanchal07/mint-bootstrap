@@ -5,13 +5,40 @@ import Slider from "react-slick";
 function CategorySlider() {
   const { products, loading, error } = useFetchProducts();
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-  };
+ const settings = {
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 4,
+      },
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
 
   return (
     <div className="Category-Section">
